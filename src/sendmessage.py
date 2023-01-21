@@ -1,6 +1,6 @@
 import pip._vendor.requests 
 
-url = "https://api.telegram.org/botID:APIKEY/sendMessage?chat_id=-602480598&text=WOOF! New drop created from ShardDog mainnet!"
+url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id=5222409941&text=<i>Test</i> From NEAR Social!"
 
 payload={}
 headers = {}
