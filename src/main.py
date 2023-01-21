@@ -48,24 +48,27 @@ async def handle_streamer_message(streamer_message: near_primitives.StreamerMess
                                        
                                         ## parsing the json string to json object
                                         notify_json = json.loads(notify_value)
-                                        #print("Data is from: ",from_data)
-                                        #print("Value of 'key': ",notify_json['key'])
-                                        #print("Value of 'blockHeight': ",notify_json['value']['item']['blockHeight'])
-                                        if like_value is not None:
-                                            if notify_json['key'] == 'orangejoe.near':
-                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id=5222409941&text=New <b>LIKE</b> from "+from_data+" on near.social! View at https://near.social/#/mob.near/widget/MainPage.Post.Page?accountId="+notify_json['key']+"&blockHeight="+str(notify_json['value']['item']['blockHeight'])
+                                        print("Data is from: ",from_data)
+                                        print("Value of 'key': ",notify_json['key'])
+                                        print("Value of 'blockHeight': ",notify_json['value']['item']['blockHeight'])
+                                        with open("./tgUsers.json", "r") as user_file:
+                                            userArray = json.load(user_file)
+                                        value_to_check = notify_json['key']
+                                        matching_item = next((item for item in userArray if value_to_check), None)
+                                        if matching_item:
+                                            print(matching_item)
+                                            if like_value is not None:
+                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>LIKE</b> from "+from_data+" on near.social! View at https://near.social/#/mob.near/widget/MainPage.Post.Page?accountId="+notify_json['key']+"&blockHeight="+str(notify_json['value']['item']['blockHeight'])
                                                 payload={}
                                                 headers = {}
                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
-                                        if follow_value is not None:
-                                            if notify_json['key'] == 'orangejoe.near':
-                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id=5222409941&text=New <b>FOLLOW</b> from "+from_data+" on near.social!"
+                                            if follow_value is not None:
+                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>FOLLOW</b> from "+from_data+" on near.social!"
                                                 payload={}
                                                 headers = {}
                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
-                                        if poke_value is not None:
-                                            if notify_json['key'] == 'orangejoe.near':
-                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id=5222409941&text=You just <b>POKED</b> by "+from_data+" on near.social!"
+                                            if poke_value is not None:
+                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=You just <b>POKED</b> by "+from_data+" on near.social!"
                                                 payload={}
                                                 headers = {}
                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
