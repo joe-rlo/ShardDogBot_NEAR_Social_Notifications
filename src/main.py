@@ -78,7 +78,7 @@ async def handle_streamer_message(streamer_message: near_primitives.StreamerMess
                                                     print(matching_item)
                                                     if matching_item is not None:
                                                         if like_value is not None:
-                                                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=markdown&chat_id="+str(matching_item)+"&text=New __LIKE__ from "+from_data+" on Near Social! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
+                                                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=markdown&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New __LIKE__ from "+from_data+" on Near Social! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
                                                             print(url)
                                                             payload={}
                                                             headers = {}
