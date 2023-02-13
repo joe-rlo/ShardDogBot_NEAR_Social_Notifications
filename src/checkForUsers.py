@@ -25,18 +25,54 @@ for message in data['result']:
             chat_id = message['message']['chat']['id']
             if 'text'in message['message'].keys():
                 text = message['message']['text']
-                tgUsers[chat_id] = text
+                tgUsers[text] = str(chat_id)
                 if text.endswith('.near'):
+                    if text.startswith("remove"):
+                        print("The string starts with 'remove'.")
+                        substrings = text.split(" ")
+                        with open("tgUsers.json", "r") as file:
+                            current_data = json.load(file)
+                        # Remove the key-value pair
+                        # Search for the key-value pair
+                        keys_to_remove = []
+                        for key, value in current_data.items():
+                            print(substrings[1])
+                            if key == substrings[1]:
+                                keys_to_remove.append(key)
+                                matching_item = value
+                                break
+
+                        # Remove the key-value pair
+                        if keys_to_remove:
+                            # Choose the key to remove based on some criteria, e.g. the first key
+                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=Account has been removed from notifications."
+                            print(url)
+                            payload={}
+                            headers = {}
+                            response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+                            matching_item = None
+                            key_to_remove = keys_to_remove[0]
+                            del current_data[key_to_remove]
+
+                        # Save the updated JSON file
+                            with open("tgUsers.json", "w") as file:
+                                json.dump(current_data, file)
+                    else:
                     # Read the existing data from the file
-                    with open("tgUsers.json", "r") as f:
-                        existing_data = json.load(f)
+                        with open("tgUsers.json", "r") as f:
+                            existing_data = json.load(f)
 
-                    # Add the new data to the existing data
-                        existing_data.update(tgUsers)
+                        # Add the new data to the existing data
+                            existing_data.update(tgUsers)
 
-                    # Write the combined data back to the file
-                    with open("tgUsers.json", "w") as f:
-                        json.dump(existing_data, f, ensure_ascii=False)
+                        # Write the combined data back to the file
+                        with open("tgUsers.json", "w") as f:
+                            json.dump(existing_data, f, ensure_ascii=False)
+                        url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(chat_id)+"&text=Account has been added to notifications."
+                        print(url)
+                        payload={}
+                        headers = {}
+                        response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
  
 if data['result'] != []:                        
     offset = int(message['update_id'])+1

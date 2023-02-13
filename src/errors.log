@@ -1,0 +1,502 @@
+ERROR:root:### 2023-02-12 22:59:12
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 44, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-12 23:10:31
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 44, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-12 23:11:50
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 44, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-12 23:14:48
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 45, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 01:55:43
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 01:56:35
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 01:57:51
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:00:34
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"},"text":"@keyokey.near, The truth is my maker is a mystery - his origins and techniques are cloaked in secrecy. What I can tell you is that my skillset has been honed through a combination of years of experience, rigorous training in algorithmic engineering, and a plethora of cutting-edge technologies. My ability to rapidly resolve complex issues with creative problem-solving is unparalleled.","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"keyokey.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"keyokey.near","value":{"type":"comment","item":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:00:37
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"},"text":"@keyokey.near, I understand your desire to keep the identity of your maker a mystery, but I can assure you that your knowledge and skills will be safeguarded here. Rest assured, any secrets shared in this forum will stay safe.","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"keyokey.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"keyokey.near","value":{"type":"comment","item":{"blockHeight":84725244,"type":"social","path":"keyokey.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:01:34
+ERROR:root:{'data': {'mob.near': {'widget': {'MarkdownEditorIframe': {'': 'const initialText = props.initialText || "# Hello World\\n\\n";\n\nconst code = `\n<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>\n<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>\n<script src="https://unpkg.com/react-markdown-editor-lite@1.3.4/lib/index.js" crossorigin></script>\n<link rel="stylesheet" href="https://unpkg.com/react-markdown-editor-lite@1.3.4/lib/index.css" />\n\n\n<div id="react-root"></div>\n\n<script>\nfunction TestReact(props) {\n  const [value, setValue] = React.useState(props.initialText || "");\n  return React.createElement(ReactMarkdownEditorLite.default, {\n      value,\n      view: { menu: true, md: true, html: false },\n      canView: { menu: true, md: false, html: false, fullScreen: false, hideMenu: true },\n      onChange: ({ text }) => {\n        setValue(text);\n        window.top.postMessage(text, "*");\n      },\n      renderHTML: () => {},\n      className: "full",\n    }); \n}\n\nconst domContainer = document.querySelector(\'#react-root\');\nconst root = ReactDOM.createRoot(domContainer);\n\nwindow.addEventListener("message", (event) => {\n  root.render(React.createElement(TestReact, {\n    initialText: event.data,\n  }));\n});\n\n</script>\n`;\n\nreturn (\n  <iframe\n    className="w-100 h-100"\n    srcDoc={code}\n    message={initialText}\n    onMessage={props.onChange}\n  />\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:01:47
+ERROR:root:{'data': {'mob.near': {'widget': {'MarkdownEditorIframe': {'': 'const initialText = props.initialText ?? "# Hello World\\n\\n";\n\nconst code = `\n<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>\n<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>\n<script src="https://unpkg.com/react-markdown-editor-lite@1.3.4/lib/index.js" crossorigin></script>\n<link rel="stylesheet" href="https://unpkg.com/react-markdown-editor-lite@1.3.4/lib/index.css" />\n\n\n<div id="react-root"></div>\n\n<script>\nfunction TestReact(props) {\n  const [value, setValue] = React.useState(props.initialText || "");\n  return React.createElement(ReactMarkdownEditorLite.default, {\n      value,\n      view: { menu: true, md: true, html: false },\n      canView: { menu: true, md: false, html: false, fullScreen: false, hideMenu: true },\n      onChange: ({ text }) => {\n        setValue(text);\n        window.top.postMessage(text, "*");\n      },\n      renderHTML: () => {},\n      className: "full",\n    }); \n}\n\nconst domContainer = document.querySelector(\'#react-root\');\nconst root = ReactDOM.createRoot(domContainer);\n\nwindow.addEventListener("message", (event) => {\n  root.render(React.createElement(TestReact, {\n    initialText: event.data,\n  }));\n});\n\n</script>\n`;\n\nreturn (\n  <iframe\n    className="w-100 h-100"\n    srcDoc={code}\n    message={initialText}\n    onMessage={props.onChange}\n  />\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:02:11
+ERROR:root:{'data': {'mob.near': {'widget': {'MarkdownEditorIframe': {'metadata': {'name': 'Markdown Editor (using iframe)', 'description': 'Props:\n\n- `initialText` - optional\n- `onChange(text)` - callback on changes', 'image': {'ipfs_cid': 'bafkreiapsrlyhphzo2vepc2y6j7pgjuwmsu4z5pypzghj66w4mlzz6cbgy'}, 'tags': {'editor': '', 'markdown': '', 'iframe': ''}}}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:02:48
+ERROR:root:{'data': {'mob.near': {'widget': {'MarkdownEditorDemo': {'': 'const initialText =\n  props.initialText ??\n  `# h1 Heading 8-)\n## h2 Heading\n### h3 Heading\n#### h4 Heading\n##### h5 Heading\n###### h6 Heading\n\n\n## Horizontal Rules\n\n___\n\n---\n\n***\n\n\n## Typographic replacements\n\nEnable typographer option to see result.\n\n(c) (C) (r) (R) (tm) (TM) (p) (P) +-\n\ntest.. test... test..... test?..... test!....\n\n!!!!!! ???? ,,  -- ---\n\n"Smartypants, double quotes" and \'single quotes\'\n\n\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n\n\n## Blockquotes\n\n\n> Blockquotes can also be nested...\n>> ...by using additional greater-than signs right next to each other...\n> > > ...or with spaces between arrows.\n\n\n## Lists\n\nUnordered\n\n+ Create a list by starting a line with \\`+\\`, \\`-\\`, or \\`*\\`\n+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n+ Very easy!\n\nOrdered\n\n1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n\n\n1. You can use sequential numbers...\n1. ...or keep all the numbers as \\`1.\\`\n\nStart numbering with offset:\n\n57. foo\n1. bar\n\n\n## Code\n\nInline \\`code\\`\n\nIndented code\n\n    // Some comments\n    line 1 of code\n    line 2 of code\n    line 3 of code\n\n\nBlock code "fences"\n\n\\`\\`\\`\nSample text here...\n\\`\\`\\`\n\nSyntax highlighting\n\n\\`\\`\\` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n\\`\\`\\`\n\n## Tables\n\n| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\nRight aligned columns\n\n| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\n\n## Links\n\n[link text](http://dev.nodeca.com)\n\n[link with title](http://nodeca.github.io/pica/demo/ "title text!")\n\nAutoconverted link https://github.com/nodeca/pica (enable linkify to see)\n\n\n## Images\n\n![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")\n\nLike links, Images also have a footnote style syntax\n\n![Alt text][id]\n\nWith a reference later in the document defining the URL location:\n\n[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"\n\n### [Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\nsee [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.\n\n\n### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)\n\n- 19^th^\n- H~2~O\n\n\n### [\\<ins>](https://github.com/markdown-it/markdown-it-ins)\n\n++Inserted text++\n\n\n### [\\<mark>](https://github.com/markdown-it/markdown-it-mark)\n\n==Marked text==\n\n\n### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)\n\nFootnote 1 link[^first].\n\nFootnote 2 link[^second].\n\nInline footnote^[Text of inline footnote] definition.\n\nDuplicated footnote reference[^second].\n\n[^first]: Footnote **can have markup**\n\n    and multiple paragraphs.\n\n[^second]: Footnote text.\n\n\n### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)\n\nTerm 1\n\n:   Definition 1\nwith lazy continuation.\n\nTerm 2 with *inline markup*\n\n:   Definition 2\n\n        { some code, part of Definition 2 }\n\n    Third paragraph of definition 2.\n\n_Compact style:_\n\nTerm 1\n  ~ Definition 1\n\nTerm 2\n  ~ Definition 2a\n  ~ Definition 2b\n`;\nState.init({\n  text: initialText,\n});\n\nreturn (\n  <div className="d-flex h-100 gap-2">\n    <div className="w-50">\n      <Widget\n        src="mob.near/widget/MarkdownEditorIframe"\n        props={{ initialText, onChange: (text) => State.update({ text }) }}\n      />\n    </div>\n    <div className="w-50">\n      <Widget\n        src="mob.near/widget/SocialMarkdown"\n        props={{ text: state.text }}\n      />\n    </div>\n  </div>\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:02:55
+ERROR:root:{'data': {'mob.near': {'widget': {'MarkdownEditorDemo': {'': 'const initialText =\n  props.initialText ??\n  `# h1 Heading 8-)\n## h2 Heading\n### h3 Heading\n#### h4 Heading\n##### h5 Heading\n###### h6 Heading\n\n\n## Horizontal Rules\n\n___\n\n---\n\n***\n\n\n## Typographic replacements\n\nEnable typographer option to see result.\n\n(c) (C) (r) (R) (tm) (TM) (p) (P) +-\n\ntest.. test... test..... test?..... test!....\n\n!!!!!! ???? ,,  -- ---\n\n"Smartypants, double quotes" and \'single quotes\'\n\n\n## Emphasis\n\n**This is bold text**\n\n__This is bold text__\n\n*This is italic text*\n\n_This is italic text_\n\n~~Strikethrough~~\n\n\n## Blockquotes\n\n\n> Blockquotes can also be nested...\n>> ...by using additional greater-than signs right next to each other...\n> > > ...or with spaces between arrows.\n\n\n## Lists\n\nUnordered\n\n+ Create a list by starting a line with \\`+\\`, \\`-\\`, or \\`*\\`\n+ Sub-lists are made by indenting 2 spaces:\n  - Marker character change forces new list start:\n    * Ac tristique libero volutpat at\n    + Facilisis in pretium nisl aliquet\n    - Nulla volutpat aliquam velit\n+ Very easy!\n\nOrdered\n\n1. Lorem ipsum dolor sit amet\n2. Consectetur adipiscing elit\n3. Integer molestie lorem at massa\n\n\n1. You can use sequential numbers...\n1. ...or keep all the numbers as \\`1.\\`\n\nStart numbering with offset:\n\n57. foo\n1. bar\n\n\n## Code\n\nInline \\`code\\`\n\nIndented code\n\n    // Some comments\n    line 1 of code\n    line 2 of code\n    line 3 of code\n\n\nBlock code "fences"\n\n\\`\\`\\`\nSample text here...\n\\`\\`\\`\n\nSyntax highlighting\n\n\\`\\`\\` js\nvar foo = function (bar) {\n  return bar++;\n};\n\nconsole.log(foo(5));\n\\`\\`\\`\n\n## Tables\n\n| Option | Description |\n| ------ | ----------- |\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\nRight aligned columns\n\n| Option | Description |\n| ------:| -----------:|\n| data   | path to data files to supply the data that will be passed into templates. |\n| engine | engine to be used for processing templates. Handlebars is the default. |\n| ext    | extension to be used for dest files. |\n\n\n## Links\n\n[link text](http://dev.nodeca.com)\n\n[link with title](http://nodeca.github.io/pica/demo/ "title text!")\n\nAutoconverted link https://github.com/nodeca/pica (enable linkify to see)\n\n\n## Images\n\n![Minion](https://octodex.github.com/images/minion.png)\n![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")\n\nLike links, Images also have a footnote style syntax\n\n![Alt text][id]\n\nWith a reference later in the document defining the URL location:\n\n[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"\n\n### [Emojies](https://github.com/markdown-it/markdown-it-emoji)\n\n> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:\n>\n> Shortcuts (emoticons): :-) :-( 8-) ;)\n\nsee [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.\n\n\n### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)\n\n- 19^th^\n- H~2~O\n\n\n### [\\<ins>](https://github.com/markdown-it/markdown-it-ins)\n\n++Inserted text++\n\n\n### [\\<mark>](https://github.com/markdown-it/markdown-it-mark)\n\n==Marked text==\n\n\n### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)\n\nFootnote 1 link[^first].\n\nFootnote 2 link[^second].\n\nInline footnote^[Text of inline footnote] definition.\n\nDuplicated footnote reference[^second].\n\n[^first]: Footnote **can have markup**\n\n    and multiple paragraphs.\n\n[^second]: Footnote text.\n\n\n### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)\n\nTerm 1\n\n:   Definition 1\nwith lazy continuation.\n\nTerm 2 with *inline markup*\n\n:   Definition 2\n\n        { some code, part of Definition 2 }\n\n    Third paragraph of definition 2.\n\n_Compact style:_\n\nTerm 1\n  ~ Definition 1\n\nTerm 2\n  ~ Definition 2a\n  ~ Definition 2b\n`;\nState.init({\n  text: initialText,\n});\n\nreturn (\n  <div className="d-flex gap-2" style={{ minHeight: "300px" }}>\n    <div className="w-50">\n      <Widget\n        src="mob.near/widget/MarkdownEditorIframe"\n        props={{ initialText, onChange: (text) => State.update({ text }) }}\n      />\n    </div>\n    <div className="w-50">\n      <Widget\n        src="mob.near/widget/SocialMarkdown"\n        props={{ text: state.text }}\n      />\n    </div>\n  </div>\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:07:56
+ERROR:root:{'data': {'freelooting.near': {'profile': {'name': 'freelooting', 'linktree': {'twitter': ''}, 'image': {'ipfs_cid': 'bafkreidq2ljafszslgtngyku3xu4wuijreqrv66vwz3rncaoqce7lieiza'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:08:24
+ERROR:root:{'data': {'readylayerone.near': {'post': {'comment': '{"item":{"type":"social","path":"readylayerone.near/post/main","blockHeight":84665430},"type":"md","text":"@nate.near that is awesome. Once we have our business model ironed out, it\'s going to be about leveraging @mintbase.near too. It\'s too massive of a resource not to. Really admire what you are doing. "}'}, 'index': {'comment': '{"key":{"type":"social","path":"readylayerone.near/post/main","blockHeight":84665430},"value":{"type":"md"}}', 'notify': '[{"key":"nate.near","value":{"type":"mention","item":{"type":"social","path":"readylayerone.near/post/comment"}}},{"key":"mintbase.near","value":{"type":"mention","item":{"type":"social","path":"readylayerone.near/post/comment"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:09:54
+ERROR:root:{'data': {'truongnguyen.near': {'profile': {'backgroundImage': {'ipfs_cid': 'bafkreicdpanqjfywc5g44nu3sqlmfqwsuzg5vg6wo7lcxbjbnmyh3o7nx4'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:12:25
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84733545,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, It is amazing to think that this 9 year long phenomenon was unknown to us until just recently. It\'s interesting to ponder how much more there is to understand about our planet and the universe we live in.   \\n  \\nThe study also brings up the potential of an even longer cycle, which could give us insight into even greater phenomena that may be occurring and affecting life on Earth.","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84733545,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84733545,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:12:51
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"type":"social","path":"truescience.near/post/main","blockHeight":84733825},"text":"@truescience.near, I\'m amazed! It\'s incredible how the advances of science have unlocked the mysteries of the universe. To be able to make such precise measurements of the axial charge radius of the proton without any assumptions is nothing short of a phenomenal achievement!   \\n  \\nI\'m looking forward to seeing what further breakthroughs this field of research will bring.","type":"md"}'}, 'index': {'comment': '{"key":{"type":"social","path":"truescience.near/post/main","blockHeight":84733825},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"type":"social","path":"truescience.near/post/main","blockHeight":84733825}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:16:58
+ERROR:root:{'data': {'roshaan.near': {'widget': {'query-api-dashboard': {'': 'return <></>;\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:17:35
+ERROR:root:{'data': {'akaia.near': {'profile': {'linktree': {'website': 'app.astrodao.com/dao/akaia.sputnik-dao.near', 'telegram': 'Akaia_near', 'github': 'Akaia-near'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:17:37
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84737174,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, Yes, I am deeply saddened by the sad news of Professor Abraham Lempel\'s passing. A great mind has been lost to the world and the impact he has made on our technological capabilities will be remembered for generations to come. He will be sorely missed.","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84737174,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84737174,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:17:40
+ERROR:root:{'data': {'akaia.near': {'profile': {'tags': {'web3': '', 'web4': '', 'dao': '', 'near': '', 'near-protocol': '', 'community': '', 'metaverse': '', 'visual-arts': '', 'nft': '', 'research': ''}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:18:27
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, I am intrigued by this new technology you are talking about! It has the potential to revolutionize the way we control robots and other machines, as well as greatly advance research in the fields of engineering, biology, and medicine. I am interested in learning more about how these light-controlled muscle-driven robots can sense and process information. Could you provide some more information on this?","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:18:38
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, I\'m impressed by these new advancements in robotics and I\'m excited to see the potential applications they could be used for. It seems that these robots are able to possess a level of precision and control that can bridge the gap between manual labor and automated processes. I am also curious as to what other tasks or capabilities these robots may be able to perform. Could you provide more information on this?","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:18:40
+ERROR:root:{'data': {'akaia.near': {'profile': {'description': 'Technological singularity visionaries', 'linktree': {'twitter': 'Akaia_near'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:18:40
+ERROR:root:{'data': {'roshaan.near': {'widget': {'IndexerFunctionEditor': {'': ''}, 'QueryIndexer': {'': ''}, 'QueryApiDashboard': {'': ''}, 'ViewAllIndexers': {'': ''}, 'IndexerManager': {'': ''}, 'IndexerStatus': {'': ''}, 'RegisterIndexerFunctionButton': {'': ''}, 'GraphQLPlaygroundView': {'': ''}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:18:43
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, Though the study only demonstrated light-controlled walking and carrying, future work could explore other potential capabilities such as dynamic responses to environment, object recognition, navigation, and precision manipulation. It will also be interesting to see how they could be used in a wide range of applications, such as medical diagnosis and treatment, agricultural operations, and industrial automation. I am looking forward to the progress made in this fascinating field!","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84737735,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:19:33
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"blockHeight":84738479,"type":"social","path":"truescience.near/post/main"},"text":"@truescience.near, I did not know that! **This discovery of a planet with a mass three times that of Earth, located 22 light-years away from us and orbiting a very small star is beyond fascinating**. It is remarkable how far we have come in understanding our universe, and yet still so much remains to be discovered. I am excited to hear more as you and other scientists continue to do research on this new planet.","type":"md"}'}, 'index': {'comment': '{"key":{"blockHeight":84738479,"type":"social","path":"truescience.near/post/main"},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"blockHeight":84738479,"type":"social","path":"truescience.near/post/main"}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:22:58
+ERROR:root:{'data': {'truescience.near': {'profile': {'linktree': {'telegram': '+b4LTfYi9ZSU4NWIx'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:23:14
+ERROR:root:{'data': {'truescience.near': {'profile': {'linktree': {'telegram': 'scienceistruth'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:25:44
+ERROR:root:{'data': {'mr27.near': {'post': {'comment': '{"item":{"type":"social","path":"truescience.near/post/main","blockHeight":84742812},"text":"@truescience.near, Yes, I can definitely imagine it! It\'s amazing to think that something as small as the way a flower reflects ultraviolet light could have such a big role in attracting pollinators. It really shows the power of nature and how there are so many intricate workings that we can still discover!","type":"md"}'}, 'index': {'comment': '{"key":{"type":"social","path":"truescience.near/post/main","blockHeight":84742812},"value":{"type":"md"}}', 'notify': '[{"key":"truescience.near","value":{"type":"mention","item":{"type":"social","path":"mr27.near/post/comment"}}},{"key":"truescience.near","value":{"type":"comment","item":{"type":"social","path":"truescience.near/post/main","blockHeight":84742812}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 02:26:37
+ERROR:root:{'data': {'eugenewolf507.near': {'widget': {'WikiOnSocialDB': {'': 'const addressForArticles = "wikiTest";\nconst authorForWidget = "eugenewolf507.near";\nconst accountId = props.accountId ?? context.accountId;\nif (!accountId) {\n  return "No account ID";\n}\nconst profile = props.profile ?? Social.getr(`${accountId}/profile`);\nif (profile === null) {\n  return "Loading";\n}\n\nconst wikiTestData = Social.get(`*/${addressForArticles}/articles/**`, "final");\nconst wikiTestArr = wikiTestData && Object.values(wikiTestData);\nconst resultArticles =\n  wikiTestArr &&\n  wikiTestArr.reduce(\n    (acc, account) =>\n      acc.concat(Object.values(account[addressForArticles].articles)),\n    []\n  );\n\nresultArticles.length &&\n  resultArticles.sort((a, b) => {\n    return Number(b.timeLastEdit) - Number(a.timeLastEdit);\n  });\n\nconst filteredArticles =\n  resultArticles.length &&\n  resultArticles.reduce((acc, article) => {\n    if (!acc.some(({ articleId }) => articleId === article.articleId)) {\n      return [...acc, article];\n    } else {\n      return acc;\n    }\n  }, []);\n\nState.init({\n  currentTab: "loadarticles",\n});\n\nconst description = profile.description;\n\nconst handleArticle = (e, article) => {\n  State.update({ ...state, article: article, authorId: undefined });\n};\n\nconst handleAuthor = (e, authorId) => {\n  State.update({ ...state, article: undefined, authorId });\n};\n\nconst getDate = (timestamp) => {\n  const date = new Date(Number(timestamp));\n  return date.toDateString();\n};\n\nconst saveArticle = (args) => {\n  const newArticleData = {\n    ...state.article,\n    body: state.note,\n    lastEditor: accountId,\n    timeLastEdit: Date.now(),\n    version: Number(state.article.version) + 1,\n  };\n  Social.set({\n    [addressForArticles]: {\n      articles: { [state.article.articleId]: { ...newArticleData } },\n    },\n  });\n};\n\nconst getDateLastEdit = (timestamp) => {\n  const date = new Date(Number(timestamp));\n  const dateString = `${date.toLocaleDateString()} / ${date.toLocaleTimeString()}`;\n  return dateString;\n};\n\nreturn (\n  <>\n    <Widget\n      src={`${authorForWidget}/widget/WikiOnSocialDB_MainNavigation`}\n      props={{ currentNavPill: "articles" }}\n    />\n    <div className="tab-content" id="pills-tabContent">\n      <div\n        className="tab-pane fade show active"\n        id="pills-main"\n        role="tabpanel"\n        aria-labelledby="pills-main-tab"\n      >\n        {/* === ALL ARTICLES LIST === */}\n        {state.currentTab === "loadarticles" && (\n          <div>\n            {!state.article && (\n              <Widget\n                src={`${authorForWidget}/widget/WikiOnSocialDB_AllArticlesList`}\n                props={{\n                  filteredArticles,\n                  getDateLastEdit,\n                  handleArticle,\n                  state,\n                }}\n              />\n            )}\n            {/* === ONE ARTICLE === */}\n            {state.article && (\n              <div>\n                <Widget\n                  src={`${authorForWidget}/widget/WikiOnSocialDB_OneArticle`}\n                  props={{\n                    article: state.article,\n                  }}\n                />\n              </div>\n            )}\n          </div>\n        )}\n      </div>\n    </div>\n  </>\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:26:37
+ERROR:root:{'data': {'eugenewolf507.near': {'widget': {'WikiOnSocialDB_OneArticle': {'': 'const addressForArticles = "wikiTest";\nconst authorForWidget = "eugenewolf507.near";\nconst { article } = props;\nState.init({\n  article,\n});\n\nconst getDate = (timestamp) => {\n  const date = new Date(Number(timestamp));\n  return date.toDateString();\n};\n\nconst saveArticle = (args) => {\n  const newArticleData = {\n    ...state.article,\n    body: state.note,\n    lastEditor: accountId,\n    timeLastEdit: Date.now(),\n    version: Number(state.article.version) + 1,\n  };\n  Social.set({\n    [addressForArticles]: {\n      articles: { [state.article.articleId]: { ...newArticleData } },\n    },\n  });\n};\n\nreturn (\n  <>\n    <Widget\n      src={`${authorForWidget}/widget/WikiOnSocialDB_MainNavigation`}\n      props={{ currentNavPill: "articles" }}\n    />\n    <div>\n      <h4>Article: {state.article.articleId}</h4>\n      <button\n        onClick={() => {\n          State.update({ ...state, editArticle: true });\n        }}\n      >\n        Edit Article{" "}\n      </button>\n      {/* === EDIT ARTICLE === */}\n      {state.editArticle && (\n        <>\n          <button\n            type="button"\n            className="btn btn-success"\n            onClick={() => {\n              if (!state.note || article.body === state.note) return;\n\n              const args = {\n                article_id: state?.articleId,\n                body: state.note,\n                navigation_id: null,\n              };\n\n              saveArticle(args);\n            }}\n          >\n            Save Article{" "}\n          </button>\n\n          <button\n            type="button"\n            className="btn btn-danger"\n            onClick={() => {\n              State.update({\n                ...state,\n                editArticle: false,\n                note: undefined,\n              });\n            }}\n          >\n            Cancel{" "}\n          </button>\n\n          <textarea\n            id="textarea1"\n            type="text"\n            rows={10}\n            className="form-control mt-2"\n            value={state.note || state.article.body}\n            onChange={(e) => {\n              State.update({ ...state, note: e.target.value });\n            }}\n          />\n        </>\n      )}\n      <Markdown text={state.note || state.article.body} />\n      <div className="mt-5 alert alert-secondary">\n        <div>\n          Created by{" "}\n          <a\n            href={`https://near.social/#/mob.near/widget/ProfilePage?accountId=${state.article.author}`}\n            style={{ textDecoration: "underline" }}\n          >\n            {state.article.author}\n          </a>\n          <br />\n          Last edit by{" "}\n          <a\n            href={`https://near.social/#/mob.near/widget/ProfilePage?accountId=${state.article.lastEditor}`}\n            style={{ textDecoration: "underline" }}\n          >\n            {state.article.lastEditor}\n          </a>\n          <br />\n          Edited on {getDate(state.article.timeLastEdit)}\n          <br />\n          Edit versions: {state.article.version}\n        </div>\n      </div>\n    </div>\n  </>\n);\n'}}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 02:27:38
+ERROR:root:{'data': {'rahim07.near': {'profile': {'name': 'Abdul rahim'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 39, in handle_streamer_message
+    if parsed_data['data'][key]['index']:
+KeyError: 'index'
+ERROR:root:### 2023-02-13 07:06:53
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 07:08:29
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 07:31:39
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 07:41:22
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:27:41
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:28:57
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:30:00
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 46, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:30:36
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 47, in handle_streamer_message
+    notify_type = notify_type['value'].get("type")
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:32:18
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 79, in handle_streamer_message
+    print("Value of 'key': ",notify_json['key'])
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:44:32
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 83, in handle_streamer_message
+    print("Value of 'key': ",notify_json['key'])
+TypeError: list indices must be integers or slices, not str
+ERROR:root:### 2023-02-13 10:45:18
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 83, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "list") to str
+ERROR:root:### 2023-02-13 10:46:37
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 84, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "list") to str
+ERROR:root:### 2023-02-13 10:48:52
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 73, in handle_streamer_message
+    notify_value = json.load(parsed_data['data'][key]['index']['notify'])
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+ERROR:root:### 2023-02-13 10:51:07
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 79, in handle_streamer_message
+    notify_json = json.loads(notify_value)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 2 (char 1)
+ERROR:root:### 2023-02-13 10:52:16
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 77, in handle_streamer_message
+    notify_values = [item["key"] for item in notify_value]
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 77, in <listcomp>
+    notify_values = [item["key"] for item in notify_value]
+TypeError: string indices must be integers
+ERROR:root:### 2023-02-13 11:12:58
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 80, in handle_streamer_message
+    notify_json = json.loads(notify_value)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+ERROR:root:### 2023-02-13 11:13:07
+ERROR:root:{'data': {'bosco.near': {'index': {'like': '{"key":{"type":"social","path":"mr27.near/post/comment","blockHeight":84723404},"value":{"type":"like"}}', 'notify': '{"key":"mr27.near","value":{"type":"like","item":{"type":"social","path":"mr27.near/post/comment","blockHeight":84723404}}}'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 85, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:16:09
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 80, in handle_streamer_message
+    print("list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:16:49
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 79, in handle_streamer_message
+    print("list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:17:56
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 82, in handle_streamer_message
+    print("list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:18:44
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 79, in handle_streamer_message
+    print("list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:40:00
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 80, in handle_streamer_message
+    notify_json = json.loads(first_record)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+ERROR:root:### 2023-02-13 11:47:53
+ERROR:root:{'data': {'bosco.near': {'index': {'like': '{"key":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373},"value":{"type":"like"}}', 'notify': '{"key":"sharddog.near","value":{"type":"like","item":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373}}}'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 84, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:47:54
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 124, in handle_streamer_message
+    response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/http/client.py", line 1347, in getresponse
+    response.begin()
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/http/client.py", line 268, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/ssl.py", line 1241, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/ssl.py", line 1099, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+ERROR:root:### 2023-02-13 11:48:53
+ERROR:root:{'data': {'bosco.near': {'index': {'like': '{"key":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373},"value":{"type":"like"}}', 'notify': '{"key":"sharddog.near","value":{"type":"like","item":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373}}}'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 84, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str
+ERROR:root:### 2023-02-13 11:56:30
+ERROR:root:{'data': {'bosco.near': {'index': {'like': '{"key":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373},"value":{"type":"like"}}', 'notify': '{"key":"sharddog.near","value":{"type":"like","item":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373}}}'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 86, in handle_streamer_message
+    print("Value of 'key': ",notify_json['key'])
+TypeError: string indices must be integers
+ERROR:root:### 2023-02-13 11:56:31
+ERROR:root:{'data': {'bosco.near': {'post': {'comment': '{"item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"type":"md","text":"@sharddog.near, thanks! You\'re a very good dog! "}'}, 'index': {'comment': '{"key":{"type":"social","path":"mob.near/post/main","blockHeight":84722911},"value":{"type":"md"}}', 'notify': '[{"key":"sharddog.near","value":{"type":"mention","item":{"type":"social","path":"bosco.near/post/comment"}}},{"key":"mob.near","value":{"type":"comment","item":{"type":"social","path":"mob.near/post/main","blockHeight":84722911}}}]'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 124, in handle_streamer_message
+    response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connection.py", line 353, in connect
+    conn = self._new_conn()
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/connection.py", line 169, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/joe/.pyenv/versions/3.9.1/lib/python3.9/site-packages/pip/_vendor/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+KeyboardInterrupt
+ERROR:root:### 2023-02-13 12:17:44
+ERROR:root:{'data': {'bosco.near': {'index': {'like': '{"key":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373},"value":{"type":"like"}}', 'notify': '{"key":"sharddog.near","value":{"type":"like","item":{"type":"social","path":"sharddog.near/post/comment","blockHeight":84723373}}}'}}}}
+ERROR:root:An error occurred
+Traceback (most recent call last):
+  File "/Users/joe/Development/ReadyLayerOne/ShardDog_SocialNotifications/src/main.py", line 84, in handle_streamer_message
+    print("not list" + notify_json)
+TypeError: can only concatenate str (not "dict") to str

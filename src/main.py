@@ -37,76 +37,101 @@ async def handle_streamer_message(streamer_message: near_primitives.StreamerMess
                                     print('ended with near')
                                     try:
                                         if parsed_data['data'][key]['index']:
-                                            if parsed_data.get("data", {})[key].get("index", {}).get("notify") is not None:
+                                            print(parsed_data['data'][key]['index'])
+                                            if parsed_data.get("data", {})[key].get("index", {}).get("notify") is not None or parsed_data.get("data", [{}])[key].get("index", {}).get("notify") is not None:
                                                 print(parsed_data.get("data", {})[key].get("index", {}).get("notify"))
                                                 try:
-                                                    notify_type = json.loads(parsed_data.get("data", {})[key].get("index", {}).get("notify"))
-                                                    notify_type = notify_type['value'].get("type")  
-                                                    print(notify_type)
-                                                    like_value = None
-                                                    follow_value = None
-                                                    poke_value = None
-                                                    if notify_type == "like":
-                                                        like_value = notify_type
-                                                        print(like_value)
-                                                    if notify_type == "follow":
-                                                        follow_value = notify_type
-                                                        print(follow_value)
-                                                    if notify_type == "poke":
-                                                        poke_value = notify_type
-                                                        print(poke_value) 
-                                                    from_data = parsed_data['data']
-                                                    from_data = list(from_data.keys())
-                                                    from_data = from_data[0]
-                                                
-                                                    notify_value = parsed_data['data'][key]['index']['notify']
-                                                    print(notify_value)
-                                                
-                                                    ## parsing the json string to json object
-                                                    notify_json = json.loads(notify_value)
-                                                    print("Data is from: ",from_data)
-                                                    print("Value of 'key': ",notify_json['key'])
-                                                    #print("Value of 'blockHeight': ",notify_json['value']['item']['blockHeight'])
-                                                    with open("./tgUsers.json", "r") as user_file:
-                                                        userArray = json.load(user_file)
-                                                    value_to_check = notify_json['key']
-                                                    matching_item = None
-                                                    for key, value in userArray.items():
-                                                        if value == value_to_check:
-                                                            matching_item = key
-                                                            break
-                                                    print(matching_item)
-                                                    if matching_item is not None:
-                                                        if like_value is not None:
-                                                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=markdown&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New __LIKE__ from "+from_data+" on Near Social! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
-                                                            print(url)
-                                                            payload={}
-                                                            headers = {}
-                                                            response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
-                                                            matching_item = None
-                                                        if follow_value is not None:
-                                                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>FOLLOW</b> from "+from_data+" on Near Social!"
-                                                            print(url)
-                                                            payload={}
-                                                            headers = {}
-                                                            response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
-                                                            matching_item = None
-                                                        if poke_value is not None:
-                                                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=You just got <b>POKED</b> by "+from_data+" on Near Social!"
-                                                            print(url)
-                                                            payload={}
-                                                            headers = {}
-                                                            response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
-                                                            matching_item = None
-                                                except:
-                                                        # code to handle the error
-                                                        # get current timestamp
-                                                        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                                                        logging.error("### "+timestamp)
-                                                        logging.error(parsed_data)
-                                                        logging.error("An error occurred", exc_info=True)
+                                                    if parsed_data.get("data", {})[key].get("index", {}).get("notify") is not None:
+                                                        notify_type = json.loads(parsed_data.get("data", {})[key].get("index", {}).get("notify"))
+                                                        print(notify_type)
+                                                        if isinstance(notify_type, list):
+                                                            notify_types = [item["value"]["type"] for item in notify_type]
+                                                            notify_type = notify_types[0]
+                                                        else:
+                                                            notify_type = notify_type['value'].get("type")     
+                                                        print(notify_type)
+                                                        like_value = None
+                                                        follow_value = None
+                                                        poke_value = None
+                                                        comment_value = None
+                                                        if notify_type == "like":
+                                                            like_value = notify_type
+                                                            print(like_value)
+                                                        if notify_type == "follow":
+                                                            follow_value = notify_type
+                                                            print(follow_value)
+                                                        if notify_type == "poke":
+                                                            poke_value = notify_type
+                                                            print(poke_value)
+                                                        if notify_type == "mention":
+                                                            comment_value = notify_type
+                                                            print(comment_value)   
+                                                        from_data = parsed_data['data']
+                                                        from_data = list(from_data.keys())
+                                                        from_data = from_data[0]
+                                                    
+                                                        notify_value = parsed_data['data'][key]['index']['notify']
+                                                        print(notify_value)
+                                                        if notify_type == "mention":
+                                                            print("list!")
+                                                            notify_data = json.loads(notify_value)
+                                                            first_record = notify_data[0]
+                                                            print("First Record:", first_record)
+                                                            notify_json = first_record
+                                                        else:
+                                                        ## parsing the json string to json object
+                                                            notify_json = json.loads(notify_value)
+                                                            print("not list" + notify_json['key'])
+                                                        print("Data is from: ",from_data)
+                                                        print("Value of 'key': ",notify_json['key'])
+                                                        #print("Value of 'blockHeight': ",notify_json['value']['item']['blockHeight'])
+                                                        with open("./tgUsers.json", "r") as user_file:
+                                                            userArray = json.load(user_file)
+                                                        value_to_check = notify_json['key']
                                                         matching_item = None
-                                                        continue
+                                                        for key, value in userArray.items():
+                                                            if key == value_to_check:
+                                                                matching_item = value
+                                                                break
+                                                        print(matching_item)
+                                                        if matching_item is not None:
+                                                            if like_value is not None:
+                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=markdown&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New **LIKE** from "+from_data+" on Near Social for " + value_to_check+ "! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
+                                                                print(url)
+                                                                payload={}
+                                                                headers = {}
+                                                                response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+                                                                matching_item = None
+                                                            if follow_value is not None:
+                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New <b>FOLLOW</b> from "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                print(url)
+                                                                payload={}
+                                                                headers = {}
+                                                                response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+                                                                matching_item = None
+                                                            if poke_value is not None:
+                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=You just got <b>POKED</b> by "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                print(url)
+                                                                payload={}
+                                                                headers = {}
+                                                                response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+                                                                matching_item = None
+                                                            if comment_value is not None:
+                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>MENTION</b> by "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                print(url)
+                                                                payload={}
+                                                                headers = {}
+                                                                response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
+                                                                matching_item = None
+                                                except:
+                                                    # code to handle the error
+                                                    # get current timestamp
+                                                    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                                                    logging.error("### "+timestamp)
+                                                    logging.error(parsed_data)
+                                                    logging.error("An error occurred", exc_info=True)
+                                                    matching_item = None
+                                                    continue
                                             else:
                                                 matching_item = None
                                                 continue  
@@ -137,8 +162,8 @@ async def main():
     startblock = int(startblock)-10
     print(startblock)
     if startblock > 0:
-        #config.start_block_height = startblock
-        config.start_block_height = 83556700
+        config.start_block_height = startblock
+        #config.start_block_height = 84723425
         load_dotenv()
         config.aws_access_key_id =  os.getenv('AWS_ACCESS_KEY_ID')
         config.aws_secret_key =  os.getenv('AWS_SECRET_ACCESS_KEY')
