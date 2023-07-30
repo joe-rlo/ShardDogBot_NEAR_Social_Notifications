@@ -96,28 +96,28 @@ async def handle_streamer_message(streamer_message: near_primitives.StreamerMess
                                                         print(matching_item)
                                                         if matching_item is not None:
                                                             if like_value is not None:
-                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=markdown&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New **LIKE** from "+from_data+" on Near Social for " + value_to_check+ "! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
+                                                                url = "https://api.telegram.org/"+os.getenv('TG_API_KEY')+"/sendMessage?parse_mode=markdown&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New **LIKE** from "+from_data+" on Near Social for " + value_to_check+ "! [View Post](https://near.social/%23/mob.near/widget/MainPage.Post.Page%3FaccountId="+notify_json['key']+"%26blockHeight="+str(notify_json['value']['item']['blockHeight'])+")"
                                                                 print(url)
                                                                 payload={}
                                                                 headers = {}
                                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
                                                                 matching_item = None
                                                             if follow_value is not None:
-                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New <b>FOLLOW</b> from "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                url = "https://api.telegram.org/"+os.getenv('TG_API_KEY')+"/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=New <b>FOLLOW</b> from "+from_data+" on near.social for " + value_to_check+ "!"
                                                                 print(url)
                                                                 payload={}
                                                                 headers = {}
                                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
                                                                 matching_item = None
                                                             if poke_value is not None:
-                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=You just got <b>POKED</b> by "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                url = "https://api.telegram.org/"+os.getenv('TG_API_KEY')+"/sendMessage?parse_mode=html&disable_web_page_preview=true&chat_id="+str(matching_item)+"&text=You just got <b>POKED</b> by "+from_data+" on near.social for " + value_to_check+ "!"
                                                                 print(url)
                                                                 payload={}
                                                                 headers = {}
                                                                 response = pip._vendor.requests.request("GET", url, headers=headers, data=payload)
                                                                 matching_item = None
                                                             if comment_value is not None:
-                                                                url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>MENTION</b> by "+from_data+" on near.social for " + value_to_check+ "!"
+                                                                url = "https://api.telegram.org/"+os.getenv('TG_API_KEY')+"/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=New <b>MENTION</b> by "+from_data+" on near.social for " + value_to_check+ "!"
                                                                 print(url)
                                                                 payload={}
                                                                 headers = {}
