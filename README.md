@@ -1,3 +1,10 @@
+# Using Telegram for Notifications for NEAR.Social
+
+1. Need to first setup a TG bot and API Key
+2. Can modify the logic of what to look for per SocialDB data structure
+
+
+
 # NEAR Lake Framework for Python
 
 Available in programming languages: [Rust](https://github.com/near/near-lake-framework-rs) | [Javascript](https://github.com/near/near-lake-framework-js) | **Python3**
