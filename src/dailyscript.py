@@ -13,7 +13,7 @@ obj = json.loads(balanceData)
 print(data.decode("utf-8"))
 balance = obj.get("balance")
 
-url = "https://api.telegram.org/botID:APIKEY/sendMessage?chat_id=-602480598&text=ShardDog.near current balance is: "+balance+"N"
+url = "https://api.telegram.org/APIKEY/sendMessage?chat_id=-602480598&text=ShardDog.near current balance is: "+balance+"N"
 
 payload={}
 headers = {}
@@ -33,7 +33,7 @@ obj = json.loads(balanceData)
 print(data.decode("utf-8"))
 balance = obj.get("balance")
 
-url = "https://api.telegram.org/botID:APIKEY/sendMessage?chat_id=-602480598&text=RLO validator current balance is: "+balance+"N"
+url = "https://api.telegram.org/APIKEY/sendMessage?chat_id=-602480598&text=RLO validator current balance is: "+balance+"N"
 
 payload={}
 headers = {}
