@@ -6,7 +6,7 @@ filename = 'offset.pk'
 with open(filename, 'rb') as fi:
     offset = pickle.load(fi)
     print(offset)
-url = "https://api.telegram.org/botID%3APIKEY/getUpdates"
+url = "https://api.telegram.org/APIKEY/getUpdates"
 
 payload={'offset': offset}
 headers = {}
@@ -45,7 +45,7 @@ for message in data['result']:
                         # Remove the key-value pair
                         if keys_to_remove:
                             # Choose the key to remove based on some criteria, e.g. the first key
-                            url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=Account has been removed from notifications."
+                            url = "https://api.telegram.org/APIKEY/sendMessage?parse_mode=html&chat_id="+str(matching_item)+"&text=Account has been removed from notifications."
                             print(url)
                             payload={}
                             headers = {}
@@ -68,7 +68,7 @@ for message in data['result']:
                         # Write the combined data back to the file
                         with open("tgUsers.json", "w") as f:
                             json.dump(existing_data, f, ensure_ascii=False)
-                        url = "https://api.telegram.org/botID:APIKEY/sendMessage?parse_mode=html&chat_id="+str(chat_id)+"&text=Account has been added to notifications."
+                        url = "https://api.telegram.org/APIKEY/sendMessage?parse_mode=html&chat_id="+str(chat_id)+"&text=Account has been added to notifications."
                         print(url)
                         payload={}
                         headers = {}
